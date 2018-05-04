@@ -1,0 +1,28 @@
+.sidebar{
+	height: 80vh;
+	width: 30vw;
+	margin-top: 10vh;
+	padding: 5vh;
+	border: #7f8c8d 1px solid;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+h3 {
+	color:#2c3e50;
+}
+input {
+	height: 3vh;
+	width: 20vw;
+	margin:1vh;
+	padding-left: 1vh;
+	border-radius: 2vh;
+	border:none;
+	background-color: #ecf0f1;
+}
+
+input:focus {
+outline: 0;
+}

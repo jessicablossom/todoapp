@@ -1,0 +1,46 @@
+.Card {
+    width: 20vw;
+    height: 20vh;
+    padding: 1vh;
+    background-color: #ecf0f1;
+    
+
+}
+
+.Card .title {
+	height: 5vh;
+	text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    
+}
+
+.Card .container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    height: 5vh;
+}
+
+.Card .actions {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    height: 5vh;
+}
+.btn {
+	height: 4vh;
+	width: 21vw;
+	margin:1vh;
+	border-radius: 2vh;
+	border:none;
+	background-color:#e74c3c;
+	color:white;
+}
+
+.btn:hover{
+	background-color: #c0392b;
+}
+.btn:focus {
+outline: 0;
+}
