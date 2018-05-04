@@ -1,8 +1,9 @@
 .Card {
-    width: 20vw;
+    width: 20vh;
     height: 20vh;
-    padding: 1vh;
+    padding: 1vh 1vw;
     background-color: #ecf0f1;
+    border-radius: 1vh;
     
 
 }
@@ -43,4 +44,17 @@
 }
 .btn:focus {
 outline: 0;
+}
+
+@media (min-width: 800px) {
+	
+	.Card {
+    width: 15vh;
+    height: 15vh;
+    padding: 0.5vh 0.5vw;
+    background-color: #ecf0f1;
+    border-radius: 1vh;
+    
+
+}
 }
