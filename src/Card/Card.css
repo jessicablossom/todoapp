@@ -4,16 +4,13 @@
     padding: 1vh 1vw;
     background-color: #ecf0f1;
     border-radius: 1vh;
-    
-
 }
 
 .Card .title {
 	height: 5vh;
 	text-align: center;
     font-weight: bold;
-    font-size: 1.5em;
-    
+    font-size: 1.5em;    
 }
 
 .Card .container {
@@ -29,21 +26,30 @@
 	justify-content: center;
     height: 5vh;
 }
+
 .btn {
 	height: 4vh;
 	width: 21vw;
 	margin:1vh;
 	border-radius: 2vh;
 	border:none;
-	background-color:#e74c3c;
 	color:white;
 }
 
 .btn:hover{
 	background-color: #c0392b;
 }
+
 .btn:focus {
 outline: 0;
+}
+
+.green {
+	background-color: forestgreen;
+}
+
+.red {
+	background-color: red;
 }
 
 @media (min-width: 800px) {
@@ -54,7 +60,5 @@ outline: 0;
     padding: 0.5vh 0.5vw;
     background-color: #ecf0f1;
     border-radius: 1vh;
-    
-
-}
+	}
 }

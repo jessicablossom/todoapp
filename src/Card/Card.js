@@ -12,7 +12,8 @@ const card = (props) => {
                 {props.children}
             </div>
             <div className="actions">
-                <button className="btn" onClick={props.handleDeleteClick}>Delete</button>
+                <button className="danger" onClick={props.handleDeleteClick}>DELETE</button>
+                <button className="update" onClick={props.handleUpdateClick}>EDITION</button>
             </div>
         </div>
     );
