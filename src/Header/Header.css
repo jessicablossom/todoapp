@@ -2,7 +2,7 @@
 .header {
     height: 10vh;
     width: 100vw;
-    background-color: transparent;
+    background-color: #27ae60;
     color: white;
     border-bottom: 1px solid #27ae60;
     position: fixed;
